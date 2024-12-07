@@ -1,0 +1,393 @@
+/* Universal */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+/* Navbar */
+.navbar {
+  width: 100%;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menubar {
+  width: 50%;
+}
+
+.menulist {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  cursor: pointer;
+}
+
+.socials {
+  width: 8%;
+  display: flex;
+  justify-content: space-around;
+  cursor: pointer;
+}
+
+.socials i {
+  font-size: 1.3rem;
+}
+
+/* Hero Section */
+.hero {
+  margin: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+}
+
+.hero .hero-heading {
+  font-size: 2.8rem;
+  width: 40%;
+  height: auto;
+  text-align: center;
+  font-weight: 800;
+}
+
+.hero .hero-subHeading {
+  height: auto;
+  font-size: 0.9rem;
+  width: 40%;
+  text-align: center;
+  margin: 0;
+  font-weight: 200;
+  margin-top: 2rem;
+}
+
+.orderbtn {
+  padding: 0.7rem 3rem;
+  border: none;
+  border-radius: 30px;
+  height: 50px;
+  width: 150px;
+  background-color: greenyellow;
+  color: black;
+  font-weight: 800;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+
+.courses {
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+  padding: 0.5rem;
+}
+
+.courseoptn {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0.5rem;
+  width: 20%;
+  border-radius: 25px;
+  background-color: rgb(30, 30, 30);
+  cursor: pointer;
+}
+
+.courselogo {
+  height: 32px;
+  width: 32px;
+  background-color: rgb(30, 30, 30);
+}
+
+.courseinfo {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: rgb(97, 97, 97);
+  background-color: rgb(30, 30, 30);
+}
+
+/* About Author Section */
+.authorexp {
+  background-color: rgb(223, 223, 223);
+  height: 100%;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.authorexp h1 {
+  background-color: rgb(223, 223, 223);
+  color: black;
+  font-size: 2.8rem;
+  font-weight: 800;
+}
+
+.authorexp p {
+  background-color: rgb(223, 223, 223);
+  color: black;
+  font-size: 1rem;
+  font-weight: 200;
+  width: 70%;
+}
+
+.workexperience {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: self-start;
+  background-color: rgb(223, 223, 223);
+  gap: 2rem;
+}
+
+.infocontainer {
+  background-color: rgb(223, 223, 223);
+  margin-left: 0.2rem;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.experience {
+  background-color: rgb(223, 223, 223);
+  display: flex;
+  justify-content: space-around;
+  height: 100%;
+  flex-direction: column;
+  width: 100%;
+}
+
+.expfields {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  background-color: rgb(223, 223, 223);
+}
+
+.expfields i {
+  background-color: rgb(223, 223, 223);
+  color: rgb(252, 45, 79);
+  font-size: 3rem;
+}
+
+.expfieldinfo {
+  background-color: rgb(223, 223, 223);
+}
+
+.expfieldinfo .expheading {
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+.expfieldinfo p {
+  font-size: 1.2rem;
+  width: 100%;
+}
+
+.expfields #camera {
+  color: rgb(99, 185, 239);
+}
+
+.expfields #focus {
+  color: brown;
+}
+
+.authorimg {
+  background-color: rgb(223, 223, 223);
+}
+
+.steveimg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+  background-color: rgb(223, 223, 223);
+}
+
+.features {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(223, 223, 223);
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.features .featureHeading {
+  background-color: rgb(223, 223, 223);
+  color: black;
+  font-size: 3.5rem;
+  text-align: center;
+}
+
+.featureContainer {
+  background-color: rgb(223, 223, 223);
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  margin-top: 3rem;
+}
+
+.featureCard {
+  background-color: rgb(223, 223, 223);
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 25%;
+  height: 150%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.featureimg {
+  width: 70px;
+  height: 70px;
+  background-color: rgb(223, 223, 223);
+}
+
+.featureCard p {
+  background-color: rgb(223, 223, 223);
+  color: black;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.featureCard .featureCardHeading {
+  background-color: rgb(223, 223, 223);
+  color: black;
+  text-align: center;
+  font-size: 1.7rem;
+  font-weight: 500;
+}
+
+.pricing {
+  height: 120%;
+  width: 100%;
+  background-color: black;
+  padding: 3rem;
+}
+
+.pricingHeading {
+  text-align: center;
+  font-size: 4rem;
+}
+
+.pricingcontainer {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  margin-top: 2rem;
+  justify-content: space-around;
+}
+
+.pricingCard {
+  border-radius: 20px;
+  width: 30%;
+  height: 120%;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between; /* Ensure proper spacing between sections */
+  background-color: white;
+}
+
+.pricingCard h1 {
+  text-align: center;
+  font-weight: 500;
+  background-color: white;
+  color: black;
+  margin-bottom: 0.5rem; /* Add spacing after the heading */
+}
+
+.pricingCard p {
+  text-align: center;
+  font-weight: 200;
+  background-color: white;
+  color: black;
+  margin-bottom: 1rem; /* Ensure spacing before the divider */
+}
+
+.pricingCard hr {
+  width: 80%; /* Centered divider with reduced width */
+  border: 0.5px solid gray;
+  margin: 1rem 0;
+}
+
+.pricingCard ul {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
+  background-color: white;
+  width: 100%; /* Ensures alignment with the card */
+}
+
+.pricingCard li {
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+  font-weight: 300;
+  background-color: white;
+  color: black;
+}
+
+.pricingCard ul li:before {
+  content: "✓ ";
+  color: green;
+  margin-right: 0.5rem;
+}
+
+.pricebtn {
+  padding: 0.7rem 3rem;
+  border: none;
+  border-radius: 30px;
+  height: 50px;
+  width: 250px;
+  background-color: greenyellow;
+  color: black;
+  font-weight: 800;
+  cursor: pointer;
+  align-self: center; /* Center button in the card */
+  margin-top: auto; /* Push the button to the bottom */
+}
+
+.contact {
+  padding: 2rem;
+  height: 40%;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact h1 {
+  font-size: 3rem;
+}
+
+.contactIcons {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.iconsSocials {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
